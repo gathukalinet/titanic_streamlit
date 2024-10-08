@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-df = pd.read_csv(r'C:\Users\User\Downloads\Titanic Data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/gathukalinet/titanic_streamlit/refs/heads/main/Titanic%20Data.csv')
 
 print(df.columns)
 
